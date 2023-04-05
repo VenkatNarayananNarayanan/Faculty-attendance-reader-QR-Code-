@@ -1,0 +1,25 @@
+Faculty List:
+
+Ajith
+Vijay
+Rajesh
+Krunal
+Joshne
+Nikil
+Nishok
+Watson
+Yuvaraj
+Mike
+
+1.select name from checklist where name not in(select name from attendance); - absent list
+2.insert into attendance values("Ajith",sysdate(),"Present"); - for adding date and time in a column 
+
+Database:Dbms_project
+Tables:
+1.Checklist - T1
+2.Attendance - T2
+T1 and T2 connected
+
+3.Faculty_signup - T3
+4.request - T4
+
